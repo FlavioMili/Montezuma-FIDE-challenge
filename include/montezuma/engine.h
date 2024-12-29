@@ -2,7 +2,6 @@
 #define ENGINE_H
 
 #include <chrono>
-#include <thread>
 #include <limits.h>
 #include <math.h>
 #include <cassert>

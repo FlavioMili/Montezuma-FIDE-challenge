@@ -106,8 +106,7 @@ namespace montezuma
     // Start move evaluation
     void Engine::inputGo(const std::string command)
     {
-        std::thread searchThread(&Engine::startSearching, this, command);
-        searchThread.detach();
+      startSearching(command);
     }
 
     void Engine::startSearching(const std::string command)
